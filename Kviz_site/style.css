@@ -1,0 +1,21 @@
+h1 h2 h3 p a  {
+    font-family:Helvetica,
+    sans-serif, Segoe UI Emoji,
+    Segoe UI Symbol; ;
+}
+
+
+
+.fon {
+    width: 100%;
+    opacity: 0.4 ;
+}
+.svg-logo {
+   width: 300px;
+   height: 100px;
+}
+
+.nav-icon {
+    width: 1.5%;
+
+}
