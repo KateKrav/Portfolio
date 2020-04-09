@@ -10,14 +10,9 @@
      text-decoration: none;
  }
 
-
-
  .banner {
      width: 100%;
      height: 35em;
-     /*position: fixed;*/
-     /*z-index: 0;*/
-     /*display: flex;*/
      justify-content: center;
  }
 
@@ -27,28 +22,14 @@
      object-fit: cover;
      position: relative;
      z-index: 0;
-
  }
- /*.name {*/
- /*    top: 304px;*/
- /*    position: relative;*/
- /*    z-index: 1;*/
- /*    color: #000000;*/
- /*    font-style: normal;*/
- /*    font-weight: normal;*/
- /*    font-size: 64px;*/
- /*    line-height: 78px;*/
- /*}*/
 
  .navbar {
      display: flex;
      justify-content: center;
      height: 5em;
      width: 100%;
-     /*background: linear-gradient(to top left, #849994, #83628c);*/
      background-color: black;
-     /*position: fixed;*/
-     /*z-index: 1;*/
      top: 557px;
  }
 
@@ -56,8 +37,6 @@
 
      display: flex;
      justify-content: center;
-     /*position: relative;*/
-     /*z-index: 1;*/
      width: 1140px;
 
  }
@@ -72,14 +51,14 @@
 
  .content {
      display: flex;
-     justify-content: center;
+     margin: 0 auto;
+     width: 1140px;
  }
 
  .teaser {
      width: 380px;
      text-align: center;
      padding: 20px;
-
  }
 
  .teaser a:hover{
@@ -94,6 +73,34 @@
 
  }
 
+ a {
+     line-height: 1;
+     cursor: pointer;
+     position:relative;
+ }
+ a:after {
+     background-color: #ffffff;
+     display: block;
+     content: "";
+     height: 2px;
+     width: 0;
+     left:50%;
+     position:absolute;
+     transition: width .3s ease-in-out;
+     transform:translateX(-50%);
+ }
+    a:hover:after,
+    a:focus:after {
+     width: 100%;
+    }
+
+ .dropdown{
+     width: 380px;
+     justify-content: center;
+ }
+
+
+
  @media screen and (max-width: 900px){
      .name {
          color: red;
@@ -107,7 +114,33 @@
          padding:30px 20px 0;
      }
  }
+ .button_menu {
+     background-color: #ac4b80;
+     color: white;
+     border: none;
+     cursor: pointer;
+     padding:20px;
+     margin: 0 auto;
+ }
 
+ .dropdown {
+     height: 320px;
+     position: relative;
+ }
+ .dropdown-child {
+     display: none;
+     background-color: black;
+     min-width: 200px;
+ }
+ .dropdown-child a {
+     color: white;
+     padding: 20px;
+     text-decoration: none;
+     display: block;
+ }
+ .dropdown:hover .dropdown-child {
+     display: block;
+ }
 
  @media screen and (max-width: 480px) {
      .banner{
