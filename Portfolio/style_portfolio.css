@@ -34,14 +34,12 @@
      height: 5em;
      width: 100%;
      background-color: black;
-     top: 557px;
  }
 
  .layer {
      display: flex;
      justify-content: center;
      width: 1140px;
-
  }
 
  .layer a {
