@@ -61,7 +61,7 @@
  .teaser {
      width: 380px;
      text-align: center;
-     padding: 20px;
+     padding: 20px 0;
  }
 
  .teaser a:hover{
@@ -70,10 +70,13 @@
 
  .teaser_text, .reviews {
      background-color: #9a999f;
-     padding: 20px;
      width: 379px;
      text-align: center;
+ }
 
+ .teaser_text p{
+     margin: 0;
+     padding-top: 20px;
  }
 
  a {
@@ -160,21 +163,20 @@
 
 
 
- @media screen and (max-width: 480px) {
-     .banner{
-         width: 100%;
-     }
+  @media screen and (max-width: 900px) {
+      .layer a {
+          text-decoration: none;
+          padding: 30px 20px 0;
+      }
 
+      .content {
+          width: 100%;
+          flex-direction: column;
+          justify-items: center;
+      }
 
+      .first_column, .second_column, .third_column {
+          margin: 0 auto;
+      }
 
- } @media screen and (max-width: 900px){
-     .layer a {
-         text-decoration: none;
-         padding:30px 20px 0;
-     }
-
-     .content {
-         display: block;
-         margin-left: 35px;
-     }
- }
+  }
