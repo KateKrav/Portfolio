@@ -5,12 +5,14 @@
         padding-top: 30px;
     }
 
-    .content_about p, h3{
+    .content_about p, .content_about h3{
         color: white;
+        width: 70%;
     }
 
- .my_avatar{
+ .content_about img{
      border-radius: 50%;
+     padding: 20px;
  }
 
   p{
@@ -18,15 +20,69 @@
       color: white;
   }
 
-    .content-about_text{
+  .content-about_text{
         padding: 0 30px;
-    }
+  }
 
-    .education{
+  .sections, .section_publications{
+        width: 379px;
         padding: 10px 20px;
-    }
+        border-right: 1px solid white;
+  }
 
-     #education_box {
+  .title-sections{
+        text-align: center;
+        color: #70a7ff;
+  }
+
+  .content-awards_box {
+         display: flex;
+         margin: 0 auto;
+         width: 1140px;
         border-top: 1px solid white;
         border-bottom: 1px solid white;
+  }
+  .section_publications{
+    width: 570px;
+  }
+
+
+
+   @media screen and (max-width: 900px) {
+        .content-awards_box {
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .sections{
+            padding: 5px 25px;
+            border-bottom: 1px solid white;
+            border-right: none;
+
+        }
+
+   }
+
+
+    @media screen and (max-width: 500px) {
+        .content_about p, .content_about h3{
+            width: 20%;
+        }
+        .content_about img{
+            width: 10%;
+            height: 15%;
+        }
+
+        .section_publications{
+            width: 379px;
+            border-right: none;
+            border-bottom: 1px solid white;
+        }
+
     }
