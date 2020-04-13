@@ -66,7 +66,10 @@
             border-right: none;
 
         }
-
+       .section_publications{
+           border-right: none;
+           border-bottom: 1px solid white;
+       }
    }
 
 
