@@ -6,14 +6,14 @@
  }
 
  a {
-     color: white;
+     color: #ffffff;
      text-decoration: none;
  }
  .visited:visited {
      color: #e871b7;
  }
  p{
-     text-indent: 20px
+     text-indent: 1.3em;
  }
 
  .banner {
@@ -35,17 +35,17 @@
      justify-content: center;
      height: 5em;
      width: 100%;
-     background-color: black;
+     background-color: #000000;
  }
 
  .layer {
      display: flex;
      justify-content: center;
-     width: 1140px;
+     width: 71.3em;
  }
 
  .layer a {
-     padding:30px 49px 0;
+     padding:1.9em 3.1em 0;
  }
 
  .layer a:hover {
@@ -55,13 +55,13 @@
  .content {
      display: flex;
      margin: 0 auto;
-     width: 1140px;
+     width: 71.3em;
  }
 
  .teaser {
-     width: 380px;
+     width: 24em;
      text-align: center;
-     padding: 20px 0;
+     padding: 1.3em 0;
  }
 
  .teaser a:hover{
@@ -69,17 +69,18 @@
  }
 
  .teaser_text, .reviews {
-     border-bottom: 1px solid white;
-     border-left: 1px solid white;
+     height: 6.9em;
+     border-bottom: 1px solid #ffffff;
+     border-left: 1px solid #ffffff;
      /*background-color: #9a999f;*/
-     width: 379px;
+     width:23.9em;
      text-align: center;
  }
 
  .teaser_text p{
-     color: white;
+     color: #ffffff;
      margin: 0;
-     padding-top: 20px;
+     padding-top: 1.3em;
  }
 
  a {
@@ -91,7 +92,7 @@
      background-color: #ffffff;
      display: block;
      content: "";
-     height: 2px;
+     height: 0.13em;
      width: 0;
      left:50%;
      position:absolute;
@@ -104,32 +105,32 @@
     }
 
  .dropdown{
-     width: 380px;
+     width: 24em;
      justify-content: center;
  }
 
 
  .button_menu {
      background-color: #000000;
-     color: white;
+     color: #ffffff;
      border: none;
      cursor: pointer;
-     padding:20px;
+     padding:1.3em;
      margin: 0 auto;
  }
 
  .dropdown {
-     height: 320px;
+     height: 20em;
      position: relative;
  }
  .dropdown-child {
      display: none;
      background: linear-gradient(to top left, #9e2618, #ac4b80, #91c544);
-     min-width: 200px;
+     min-width: 12.5em;
  }
  .dropdown-child a {
-     color: white;
-     padding: 20px;
+     color: #ffffff;
+     padding: 1.3em;
      text-decoration: none;
      display: block;
  }
@@ -138,30 +139,30 @@
  }
 
  .content_ava{
-     width: 380px;
+     width: 24em;
  }
 
  .avatar {
-     width:80px;
-     height: 80px;
-     border-radius: 50px;
-     margin: 50px 140px;
+     width:5em;
+     height: 5em;
+     border-radius:5em;
+     margin: 5em 8.75em;
  }
  .reviews{
-     margin-bottom:20px;
+     margin-bottom:1.3em;
      text-align: left;
  }
 
  .footer{
-     height: 40px;
+     height: 2.5em;
      text-align: center;
      justify-content: center;
-     color: white;
-     background-color: black;
+     color: #ffffff;
+     background-color: #000000;
  }
 
  .footer p{
-     padding:  10px;
+     padding: 0.6em;
  }
 
 
@@ -169,7 +170,7 @@
   @media screen and (max-width: 900px) {
       .layer a {
           text-decoration: none;
-          padding: 30px 20px 0;
+          padding: 1.9em 1.3em 0;
       }
 
       .content {

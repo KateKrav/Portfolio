@@ -1,33 +1,33 @@
     .content_about {
         display: flex;
         margin: 0 auto;
-        width: 1140px;
-        padding-top: 30px;
+        width: 71.3em;
+        padding-top: 1.9em;
     }
 
     .content_about p, .content_about h3{
-        color: white;
+        color: #ffffff;
         width: 70%;
     }
 
  .content_about img{
      border-radius: 50%;
-     padding: 20px;
+     padding: 1.3em;
  }
 
   p{
       text-indent: 0;
-      color: white;
+      color: #ffffff;
   }
 
   .content-about_text{
-        padding: 0 30px;
+        padding: 0 1.9em;
   }
 
   .sections, .section_publications{
-        width: 379px;
-        padding: 10px 20px;
-        border-right: 1px solid white;
+        width: 23.7em;
+        padding: 0.6em 1.3em;
+        border-right: 1px solid #ffffff;
   }
 
   .title-sections{
@@ -38,12 +38,12 @@
   .content-awards_box {
          display: flex;
          margin: 0 auto;
-         width: 1140px;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
+         width: 71.3em;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
   }
   .section_publications{
-    width: 570px;
+    width: 35.6em;
   }
 
 
@@ -61,14 +61,14 @@
         }
 
         .sections{
-            padding: 5px 25px;
-            border-bottom: 1px solid white;
+            padding: 0.3em 1.6em;
+            border-bottom: 1px solid #ffffff;
             border-right: none;
 
         }
        .section_publications{
            border-right: none;
-           border-bottom: 1px solid white;
+           border-bottom: 1px solid #ffffff;
        }
    }
 
@@ -83,9 +83,9 @@
         }
 
         .section_publications{
-            width: 379px;
+            width: 23.7em;
             border-right: none;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid #ffffff;
         }
 
     }
