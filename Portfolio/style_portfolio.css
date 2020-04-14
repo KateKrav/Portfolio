@@ -9,7 +9,9 @@
      color: white;
      text-decoration: none;
  }
-
+ .visited:visited {
+     color: #e871b7;
+ }
  p{
      text-indent: 20px
  }
@@ -67,12 +69,15 @@
  }
 
  .teaser_text, .reviews {
-     background-color: #9a999f;
+     border-bottom: 1px solid white;
+     border-left: 1px solid white;
+     /*background-color: #9a999f;*/
      width: 379px;
      text-align: center;
  }
 
  .teaser_text p{
+     color: white;
      margin: 0;
      padding-top: 20px;
  }

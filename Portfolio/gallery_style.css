@@ -1,4 +1,46 @@
-    .content_gallery{
-        display: flex;
+
+    .content {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .text-content{
+        border: 1px solid white;
+        margin-bottom: 40px;
 
     }
+    .preview img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .links {
+        padding: 20px;
+        color: #70a7ff;
+    }
+    .links_title{
+        padding: 20px;
+    }
+
+    .links_title a{
+        color: #9485c3;
+    }
+
+
+    /*Страница перехода по сcылке title*/
+
+
+
+    .art-box img{
+        width: 560px;
+        padding:10px  10px  10px 0;
+    }
+
+    .art-box a:hover{
+      color: #e871b7;
+    }
+
+    .preview_art{
+        display: flex;
+    }
+
