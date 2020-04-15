@@ -9,11 +9,38 @@
         color: #ffffff;
         width: 70%;
     }
-
- .content_about img{
+    .gradient h2{
+       background:linear-gradient(to top right, #e216e8, #3fe6ff);
+        -webkit-background-clip: text; /* Обрезаем фон по тексту */
+        -webkit-text-fill-color: transparent; /* Прозрачный текст */
+    }
+ .avatarKa img{
      border-radius: 50%;
      padding: 1.3em;
  }
+    .icons_mini{
+        width:3.1em;
+    }
+    .icons_center img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 3.1em;
+        padding-top:1.3em;
+    }
+
+    .block_text{
+        display: flex;
+        margin-bottom:1.3em;
+        vertical-align: middle;
+    }
+
+
+    .block_text p{
+       margin: 0;
+        padding-left: 0.6em;
+
+    }
 
   p{
       text-indent: 0;
