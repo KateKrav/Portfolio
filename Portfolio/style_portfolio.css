@@ -68,18 +68,26 @@
      color: #3c3bff;
  }
 
+ .index_icon_title img{
+     width:100px;
+     display: block;
+     margin: auto;
+     padding-bottom: 10px
+ }
+
  .teaser_text, .reviews {
-     height: 6.9em;
+     height: 8.1em;
      border-bottom: 1px solid #ffffff;
      border-left: 1px solid #ffffff;
      width:23.9em;
      text-align: center;
+
  }
 
  .teaser_text p{
      color: #ffffff;
      margin: 0;
-     padding-top: 1.3em;
+     padding: 1.3em;
  }
 
  a {
@@ -109,13 +117,14 @@
  }
 
 
+
  .button_menu {
      background-color: #000000;
      color: #ffffff;
      border: none;
      cursor: pointer;
-     padding:1.3em;
-     margin: 0 auto;
+     padding: 10px 1.3em 1.3em;
+
  }
 
  .dropdown {
