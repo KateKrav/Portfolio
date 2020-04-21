@@ -173,6 +173,12 @@
      padding: 0.6em;
  }
 
+ .program_icons{
+     display: block;
+ }
+ .program_icons img{
+     width: 50px;
+ }
 
 
   @media screen and (max-width: 900px) {

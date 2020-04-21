@@ -1,0 +1,96 @@
+    .content-contact{
+        width: 500px;
+        margin: 0 auto;
+
+    }
+
+
+.header-contact img{
+     width: 500px;
+     display: block;
+     margin: auto;
+
+ }
+
+ h3, label, p{
+     color: #ffffff;
+     text-indent: 0;
+ }
+    .contact_form{
+        width: 500px;
+        border-bottom: 1px solid #ffffff;
+        border-top: 1px solid #ffffff;
+    }
+
+    .contact_form div{
+        padding:20px 10px  0;
+    }
+
+    .contact_form input {
+        width: 480px;
+        margin-top:10px;
+        border: none;
+        border-bottom: 1px solid #ffffff ;
+        background-color: #2e2d33;
+
+    }
+
+    .form_button button{
+        color: #ffffff;
+        background-color: #000000;
+        border: none;
+        padding: 20px;
+    }
+
+    .form_button{
+        margin-bottom: 20px;
+    }
+    .form_button label{
+        padding: 5px;
+    }
+
+    .contact_form textarea {
+        width: 480px;
+        background-color: #2e2d33;
+
+    }
+
+    .right{
+        float: right;
+    }
+
+    .sprite a {
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        margin-right: 10px;
+
+    }
+
+    a.telegram{
+            background-image: url("img/SVG/contact/tel.svg");
+        }
+    a.behance{
+        background-image: url("img/SVG/contact/behance.svg");
+    }
+    a.instagram{
+        background-image: url("img/SVG/contact/insta.svg");
+    }
+    a.veber{
+        background-image: url("img/SVG/contact/vaber.svg");
+    }
+    a.linkedin{
+        background-image: url("img/SVG/contact/lin.svg");
+    }
+    a.tumblr{
+          background-image: url("img/SVG/contact/tam.svg");
+      }
+    a.fecebook{
+        background-image: url("img/SVG/contact/fb.svg");
+    }
+
+
+    .sprite a:hover:after,
+    a:focus:after {
+        width: 0;
+    }
