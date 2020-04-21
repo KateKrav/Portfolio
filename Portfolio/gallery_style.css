@@ -51,3 +51,11 @@
         object-fit: cover;
         padding:20px;
     }
+
+    .dropdown{
+        width: 100px;
+    }
+
+    .dropdown-child {
+        min-width: 200px;
+    }
