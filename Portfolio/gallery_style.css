@@ -25,6 +25,19 @@
     .links_title a{
         color: #70a7ff;
     }
+    .wrapper {
+       position: fixed
+    }
+
+    .button-group {
+        display: flex;
+    }
+
+    .button_menu {
+        padding: 10px  10px  1.3em ;
+
+    }
+
 
 
     /*Страница перехода по сcылке title*/
@@ -58,4 +71,42 @@
 
     .dropdown-child {
         min-width: 200px;
+    }
+
+    .preview_text{
+        border: 1px solid white;
+    }
+
+
+    @media screen and (max-width: 1542px) {
+        .wrapper {
+            z-index: 1;
+        }
+        .content{
+            z-index: 0;
+        }
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .preview_text{
+            width: 480px;
+        }
+
+
+        .art-box img{
+            width: 100%;
+        }
+
+        .text-content{
+            width: 480px;
+        }
+
+    }
+
+    @media screen and (max-width: 500px) {
+        .preview_art{
+           flex-direction: column;
+            margin: 0 auto;
+        }
     }
