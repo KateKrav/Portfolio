@@ -37,6 +37,17 @@
         vertical-align: middle;
     }
 
+    #data_b {
+        padding: 20px
+    }
+    #hobby{
+        padding: 5px 20px
+    }
+    #education{
+        padding: 10px 20px
+    }
+
+
 
     .block_text p{
        margin: 0;
@@ -49,7 +60,9 @@
         padding-left: 1.9em ;
         padding-top: 60px;
     }
-
+    #code{
+        padding: 10px
+    }
 
 
   p{
@@ -108,7 +121,44 @@
        .section_publications{
            border-right: none;
            border-bottom: 1px solid #ffffff;
+           width: 80%;
        }
+
+       .content_about {
+           flex-direction: column;
+           justify-items: center;
+           width: 100%;
+           height: 100%;
+           top: 0;
+           left: 0;
+           align-items: center;
+           align-content: center;
+           justify-content: center;
+
+       }
+
+       .content-about_text p{
+           width: 100%;
+       }
+       .content-about_text{
+           padding-left: 1.9em ;
+           border-left: 0;
+           border-right: 0;
+           border-bottom: 1px solid #ffffff;
+           width: 50%;
+
+       }
+       .box_skills p{
+           width: 100%;
+       }
+
+       .box_skills{
+           width: 50%;
+           padding-left: 1.9em ;
+           padding-bottom: 100px;
+       }
+
+
    }
 
 
@@ -116,9 +166,17 @@
         .content_about p, .content_about h3{
             width: 20%;
         }
-        .content_about img{
-            width: 10%;
-            height: 15%;
+
+        .content_about {
+            flex-direction: column;
+            justify-items: center;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
         }
 
         .section_publications{
@@ -127,4 +185,39 @@
             border-bottom: 1px solid #ffffff;
         }
 
+
+        .content-about_text p{
+            width: 100%;
+        }
+
+        .content-about_text{
+            padding-left: 5px ;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ffffff;
+            width: 23.7em;
+        }
+
+        .box_skills p{
+            width: 100%;
+        }
+
+        .box_skills{
+            width: 80%;
+            padding-left: 5px ;
+            padding-bottom: 100px;
+        }
+
+        #data_b {
+            padding-left: 10px;
+        }
+        #hobby{
+            padding-left:10px;
+        }
+        #education{
+            padding-left: 10px;
+        }
+        #code{
+            padding: 0
+        }
     }
