@@ -9,7 +9,6 @@
      width: 500px;
      display: block;
      margin: auto;
-
  }
 
  h3, label, p{
@@ -93,4 +92,22 @@
     .sprite a:hover:after,
     a:focus:after {
         width: 0;
+    }
+
+    @media screen and (max-width: 500px) {
+        .header-contact img{
+            width: 300px;
+        }
+        .contact_form{
+            width: 460px;
+            display: block;
+            margin: auto;
+        }
+        .contact_form input {
+            width: 430px;
+        }
+        .contact_form textarea {
+            width: 430px;
+        }
+
     }
