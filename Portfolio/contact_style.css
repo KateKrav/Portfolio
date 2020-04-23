@@ -17,7 +17,7 @@
  }
     .contact_form{
         width: 500px;
-        border-bottom: 1px solid #ffffff;
+        /*border-bottom: 1px solid #ffffff;*/
         border-top: 1px solid #ffffff;
     }
 
@@ -31,6 +31,8 @@
         border: none;
         border-bottom: 1px solid #ffffff ;
         background-color: #2e2d33;
+        outline:none;
+        color: #70a7ff;
 
     }
 
@@ -39,6 +41,11 @@
         background-color: #000000;
         border: none;
         padding: 20px;
+        border-radius: 10px;
+    }
+    .form_button button:hover {
+        background-color: #5183ff;
+
     }
 
     .form_button{
@@ -46,11 +53,15 @@
     }
     .form_button label{
         padding: 5px;
+
+
     }
 
     .contact_form textarea {
         width: 480px;
         background-color: #2e2d33;
+        outline:none;
+        color: #70a7ff;
 
     }
 
@@ -66,27 +77,32 @@
 
     }
 
-    a.telegram{
+    a.telegram {
             background-image: url("img/SVG/contact/tel.svg");
         }
-    a.behance{
+    a.behance {
         background-image: url("img/SVG/contact/behance.svg");
     }
-    a.instagram{
+    a.instagram {
         background-image: url("img/SVG/contact/insta.svg");
     }
-    a.veber{
+    a.veber {
         background-image: url("img/SVG/contact/vaber.svg");
     }
-    a.linkedin{
+    a.linkedin {
         background-image: url("img/SVG/contact/lin.svg");
     }
-    a.tumblr{
+    a.tumblr {
           background-image: url("img/SVG/contact/tam.svg");
       }
-    a.fecebook{
+    a.fecebook {
         background-image: url("img/SVG/contact/fb.svg");
     }
+    a.virink {
+        background-image: url("img/SVG/contact/virink.svg");
+    }
+
+
 
 
     .sprite a:hover:after,

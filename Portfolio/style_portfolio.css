@@ -64,11 +64,11 @@
      padding: 1.3em 0;
  }
 
- .teaser a:hover{
+ .teaser a:hover {
      color: #3c3bff;
  }
 
- .index_icon_title img{
+ .index_icon_title img {
      width:80px;
      display: block;
      margin: auto;
@@ -84,7 +84,7 @@
 
  }
 
- .teaser_text p{
+ .teaser_text p {
      color: #ffffff;
      margin: 0;
      padding: 1.3em;
@@ -111,7 +111,7 @@
      width: 100%;
     }
 
- .dropdown{
+ .dropdown {
      width: 24em;
      justify-content: center;
  }
@@ -145,7 +145,7 @@
      display: block;
  }
 
- .content_ava{
+ .content_ava {
      width: 24em;
  }
 
@@ -155,12 +155,12 @@
      border-radius:5em;
      margin: 5em 8.75em;
  }
- .reviews{
+ .reviews {
      margin-bottom:1.3em;
      text-align: left;
  }
 
- .footer{
+ .footer {
      height: 2.5em;
      text-align: center;
      justify-content: center;
@@ -168,14 +168,14 @@
      background-color: #000000;
  }
 
- .footer p{
+ .footer p {
      padding: 0.6em;
  }
 
- .program_icons{
+ .program_icons {
      display: block;
  }
- .program_icons img{
+ .program_icons img {
      width: 50px;
  }
 
@@ -196,7 +196,7 @@
           margin: 0 auto;
       }
 
-      .teaser_text{
+      .teaser_text {
           border: 1px solid #ffffff;
           border-top:none;
       }

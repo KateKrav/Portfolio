@@ -5,84 +5,84 @@
         padding-top: 1.9em;
     }
 
-    .content_about p, .content_about h3{
+    .content_about p, .content_about h3 {
         color: #ffffff;
         width: 70%;
     }
-    .gradient h2{
+    .gradient h2 {
        background:linear-gradient(to top right, #e216e8, #3fe6ff);
         -webkit-background-clip: text; /* Обрезаем фон по тексту */
         -webkit-text-fill-color: transparent; /* Прозрачный текст */
     }
- .avatarKa img{
+ .avatarKa img {
      width: 150px;
      height: auto;
      border-radius: 50%;
      padding: 1.3em;
  }
-    .icons_mini{
+  .icons_mini {
         width:3.1em;
-    }
-    .icons_center img {
+  }
+  .icons_center img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 3.1em;
         padding-top:1.3em;
-    }
+  }
 
-    .block_text{
+  .block_text {
         display: flex;
         margin-bottom:1.3em;
         vertical-align: middle;
-    }
+  }
 
-    #data_b {
+  #data_b {
         padding: 20px
-    }
-    #hobby{
+  }
+  #hobby {
         padding: 5px 20px
-    }
-    #education{
+  }
+  #education {
         padding: 10px 20px
-    }
+  }
 
 
 
-    .block_text p{
+  .block_text p {
        margin: 0;
         padding-left: 0.6em;
 
 
-    }
+  }
 
-    .box_skills{
+  .box_skills {
         padding-left: 1.9em ;
         padding-top: 60px;
-    }
-    #code{
-        padding: 10px
-    }
+  }
+ #code {
+  padding:20px 10px
+ }
 
 
-  p{
+  p {
       text-indent: 0;
       color: #ffffff;
   }
 
-  .content-about_text{
+  .content-about_text {
       padding-left: 1.9em ;
       border-left: 1px solid #ffffff;
       border-right: 1px solid #ffffff;
   }
 
-  .sections, .section_publications{
+  .sections, .section_publications {
         width: 23.7em;
         padding: 0.6em 1.3em;
         border-right: 1px solid #ffffff;
   }
 
-  .title-sections{
+  .title-sections {
         text-align: center;
         color: #70a7ff;
   }
@@ -94,10 +94,48 @@
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #ffffff;
   }
-  .section_publications{
+  .section_publications {
     width: 35.6em;
   }
 
+    .tooltip {
+        display: block;
+    }
+    .tooltip img {
+        width: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        cursor:pointer;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        bottom: 100%;
+        left: 0;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+
+
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
 
 
    @media screen and (max-width: 900px) {
@@ -112,13 +150,13 @@
             justify-content: center;
         }
 
-        .sections{
+        .sections {
             padding: 0.3em 1.6em;
             border-bottom: 1px solid #ffffff;
             border-right: none;
 
         }
-       .section_publications{
+       .section_publications {
            border-right: none;
            border-bottom: 1px solid #ffffff;
            width: 80%;
@@ -134,10 +172,9 @@
            align-items: center;
            align-content: center;
            justify-content: center;
-
        }
 
-       .content-about_text p{
+       .content-about_text p {
            width: 100%;
        }
        .content-about_text{
@@ -146,24 +183,21 @@
            border-right: 0;
            border-bottom: 1px solid #ffffff;
            width: 50%;
-
        }
-       .box_skills p{
+       .box_skills p {
            width: 100%;
        }
 
-       .box_skills{
+       .box_skills {
            width: 50%;
            padding-left: 1.9em ;
            padding-bottom: 100px;
        }
-
-
    }
 
 
     @media screen and (max-width: 500px) {
-        .content_about p, .content_about h3{
+        .content_about p, .content_about h3 {
             width: 20%;
         }
 
@@ -179,18 +213,18 @@
             justify-content: center;
         }
 
-        .section_publications{
+        .section_publications {
             width: 23.7em;
             border-right: none;
             border-bottom: 1px solid #ffffff;
         }
 
 
-        .content-about_text p{
+        .content-about_text p {
             width: 100%;
         }
 
-        .content-about_text{
+        .content-about_text {
             padding-left: 5px ;
             border-left: 0;
             border-right: 0;
@@ -198,11 +232,11 @@
             width: 23.7em;
         }
 
-        .box_skills p{
+        .box_skills p {
             width: 100%;
         }
 
-        .box_skills{
+        .box_skills {
             width: 80%;
             padding-left: 5px ;
             padding-bottom: 100px;
@@ -211,13 +245,13 @@
         #data_b {
             padding-left: 10px;
         }
-        #hobby{
+        #hobby {
             padding-left:10px;
         }
-        #education{
+        #education {
             padding-left: 10px;
         }
-        #code{
+        #code {
             padding: 0
         }
     }
