@@ -3,6 +3,8 @@
      padding: 0;
      font-family: Montserrat, sans-serif;
      background-color: #2e2d33;
+     max-width: 100%;
+     max-height: 100%;
  }
 
  a {
@@ -76,7 +78,7 @@
  }
 
  .teaser_text, .reviews {
-     height: 8.1em;
+     height: 150px;
      border-bottom: 1px solid #ffffff;
      border-left: 1px solid #ffffff;
      width:23.9em;
@@ -87,7 +89,7 @@
  .teaser_text p {
      color: #ffffff;
      margin: 0;
-     padding: 1.3em;
+     padding: 10px 1.3em;
  }
 
  a {
@@ -112,7 +114,7 @@
     }
 
  .dropdown {
-     width: 24em;
+     /*width: 24em;*/
      justify-content: center;
  }
 
@@ -133,7 +135,7 @@
  .dropdown-child {
      display: none;
      background: linear-gradient(to top left, #9e2618, #ac4b80, #91c544);
-     min-width: 12.5em;
+     /*max-width:500px;*/
  }
  .dropdown-child a {
      color: #ffffff;

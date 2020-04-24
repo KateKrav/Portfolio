@@ -38,7 +38,7 @@
   }
 
   #data_b {
-        padding: 20px
+        padding: 10px 20px 20px;
   }
   #hobby {
         padding: 5px 20px
@@ -98,23 +98,23 @@
     width: 35.6em;
   }
 
-    .tooltip {
+  .tooltip {
         display: block;
-    }
-    .tooltip img {
+  }
+  .tooltip img {
         width: 50px;
         padding-left: 10px;
         padding-top: 10px;
-    }
+  }
 
 
-    .tooltip {
+  .tooltip {
         position: relative;
         display: inline-block;
         cursor:pointer;
-    }
+  }
 
-    .tooltip .tooltiptext {
+  .tooltip .tooltiptext {
         visibility: hidden;
         width: 120px;
         bottom: 100%;
@@ -131,11 +131,11 @@
         z-index: 1;
 
 
-    }
+  }
 
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-    }
+  .tooltip:hover .tooltiptext {
+     visibility: visible;
+  }
 
 
    @media screen and (max-width: 900px) {
