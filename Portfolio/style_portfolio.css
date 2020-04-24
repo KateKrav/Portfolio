@@ -3,8 +3,8 @@
      padding: 0;
      font-family: Montserrat, sans-serif;
      background-color: #2e2d33;
-     max-width: 100%;
-     max-height: 100%;
+     width: 100%;
+     height: 100%;
  }
 
  a {
@@ -54,10 +54,16 @@
      color: #70a7ff;
  }
 
+ .box-index{
+
+ }
  .content {
      display: flex;
      margin: 0 auto;
      width: 71.3em;
+     min-height: 100%;
+     flex: 1 0 auto;
+     /*position: relative;*/
  }
 
  .teaser {
@@ -129,11 +135,11 @@
  }
 
  .dropdown {
-     height: 20em;
+     /*height: 20em;*/
      position: relative;
  }
  .dropdown-child {
-     display: none;
+     /*display: none;*/
      background: linear-gradient(to top left, #9e2618, #ac4b80, #91c544);
      /*max-width:500px;*/
  }
@@ -163,11 +169,13 @@
  }
 
  .footer {
-     height: 2.5em;
+     flex: 0 0 auto;
+     /*height: 2.5em;*/
      text-align: center;
      justify-content: center;
      color: #ffffff;
      background-color: #000000;
+
  }
 
  .footer p {
@@ -179,6 +187,14 @@
  }
  .program_icons img {
      width: 50px;
+ }
+
+ .cat_helper img {
+     width:500px;
+     bottom: 350px;
+     float: right;
+     padding-right: 50px;
+     position: relative;
  }
 
 
