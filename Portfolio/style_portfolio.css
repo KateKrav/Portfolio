@@ -212,4 +212,35 @@
           border: 1px solid #ffffff;
           border-top:none;
       }
+
+      .cat_helper img {
+          display: none;
+      }
   }
+
+
+
+ @media screen and (max-width: 1280px) {
+
+     .cat_helper img {
+         width:200px;
+         z-index: 1;
+     }
+ }
+
+
+ @media screen and (min-width: 1280px) {
+
+     .cat_helper img {
+         width:250px;
+         z-index: 1;
+     }
+ }
+
+ @media screen and (min-width: 1360px) {
+
+     .cat_helper img {
+         width:300px;
+         z-index: 1;
+     }
+ }
