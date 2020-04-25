@@ -25,6 +25,7 @@
        position: fixed;
         width: 250px;
         /*padding-bottom: 20px;*/
+        top: 0;
     }
 
     .dropdown-child{
@@ -43,7 +44,6 @@
 
     .button_menu {
        background-color: black;
-
     }
 
 
