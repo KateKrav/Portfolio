@@ -24,9 +24,14 @@
     .wrapper {
        position: fixed;
         width: 250px;
-        background-color: #4b5376;
-        padding-bottom: 20px;
+        /*padding-bottom: 20px;*/
     }
+
+    .dropdown-child{
+        background-color: #4b5376;
+        border: none;
+    }
+
 
     .menu_link {
         padding: 20px;
@@ -37,7 +42,7 @@
     }
 
     .button_menu {
-        padding: 10px  10px  1.3em ;
+       background-color: black;
 
     }
 
@@ -68,9 +73,6 @@
         padding:20px;
     }
 
-    .dropdown {
-        width: 100px;
-    }
 
     .dropdown-child {
         min-width: 200px;

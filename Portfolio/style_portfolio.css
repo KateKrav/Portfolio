@@ -3,8 +3,6 @@
      padding: 0;
      font-family: Montserrat, sans-serif;
      background-color: #2e2d33;
-     width: 100%;
-     height: 100%;
  }
 
  a {
@@ -61,9 +59,6 @@
      display: flex;
      margin: 0 auto;
      width: 71.3em;
-     min-height: 100%;
-     flex: 1 0 auto;
-     /*position: relative;*/
  }
 
  .teaser {
@@ -89,7 +84,6 @@
      border-left: 1px solid #ffffff;
      width:23.9em;
      text-align: center;
-
  }
 
  .teaser_text p {
@@ -119,29 +113,27 @@
      width: 100%;
     }
 
- .dropdown {
-     /*width: 24em;*/
-     justify-content: center;
- }
-
 
  .button_menu {
-     background-color: #000000;
+     background-color: #70a7ff;
      color: #ffffff;
      border: none;
      cursor: pointer;
-     padding: 10px 1.3em 1.3em;
+     padding: 15px 15px 10px;
+     border-radius: 10px;
 
  }
 
  .dropdown {
-     /*height: 20em;*/
+     height: 20em;
      position: relative;
+     padding-top: 10px;
  }
  .dropdown-child {
-     /*display: none;*/
-     background: linear-gradient(to top left, #9e2618, #ac4b80, #91c544);
-     /*max-width:500px;*/
+     display: none;
+     max-width:500px;
+     border: 1px solid #ffffff;
+     text-align: center;
  }
  .dropdown-child a {
      color: #ffffff;
@@ -169,13 +161,10 @@
  }
 
  .footer {
-     flex: 0 0 auto;
-     /*height: 2.5em;*/
+     height: 2.5em;
      text-align: center;
-     justify-content: center;
      color: #ffffff;
      background-color: #000000;
-
  }
 
  .footer p {
@@ -189,12 +178,17 @@
      width: 50px;
  }
 
+
+
  .cat_helper img {
-     width:500px;
-     bottom: 350px;
-     float: right;
-     padding-right: 50px;
-     position: relative;
+     width:300px;
+     /*bottom: 350px;*/
+     /*float: right;*/
+     /*padding-right: 50px;*/
+     position:fixed;
+     bottom: 40px;
+
+
  }
 
 
@@ -219,23 +213,3 @@
           border-top:none;
       }
   }
-
- /** {*/
- /*    margin: 0;*/
- /*    padding: 0;*/
- /*}*/
- /*html,*/
- /*body {*/
- /*    height: 100%;*/
- /*}*/
- /*.wrapper {*/
- /*    display: flex;*/
- /*    flex-direction: column;*/
- /*    min-height: 100%;*/
- /*}*/
- /*.content {*/
- /*    flex: 1 0 auto;*/
- /*}*/
- /*.footer {*/
- /*    flex: 0 0 auto;*/
- /*}*/

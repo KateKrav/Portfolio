@@ -38,14 +38,14 @@
 
     .form_button button{
         color: #ffffff;
-        background-color: #000000;
+        background-color: #e871b7;
         border: none;
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
     }
     .form_button button:hover {
         background-color: #5183ff;
-
+        color:#ffffff;
     }
 
     .form_button{
@@ -53,8 +53,10 @@
     }
     .form_button label{
         padding: 5px;
+    }
 
-
+    .placeholder_form{
+        padding-bottom: 10px;
     }
 
     .contact_form textarea {
