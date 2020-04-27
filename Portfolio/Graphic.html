@@ -6,59 +6,41 @@
     <link rel="stylesheet" href="style_portfolio.css">
     <link rel="stylesheet" href="gallery_style.css">
     <link rel="shortcut icon" href="img/idex-art.ico">
+    <script src="Scripts.js"></script>
 </head>
-<body>
-        <div class="navbar">
-            <div class="layer">
-                <a href="index.html">Главная</a>
-                <a href="About_me.html">Обо мне</a>
-                <a class="visited" href="Gallery.html">Галерея</a>
-                <a href="Contact.html">Контакты</a>
-            </div>
-        </div>
+<!--<body onload="load_images()">-->
 
-        <div class="content" style="margin-bottom: 0">
-            <div class="preview_art">
-                <div class="graphic_art-box">
-                     <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="preview_art">
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-
-                <div class="graphic_art-box">
-                    <img src="img/comp.jpg" alt="preview-art">
-                </div>
-            </div>
-        </div>
+<!--<button onclick="load_images()">Test</button>-->
 
 
+<div class="navbar">
+    <div class="layer">
+        <a href="index.html">Главная</a>
+        <a href="About_me.html">Обо мне</a>
+        <a class="visited" href="Gallery.html">Галерея</a>
+        <a href="Contact.html">Контакты</a>
+    </div>
+</div>
 
+<div class="content" style="margin-bottom: 0">
+    <div onload="load_images()" class="preview_art">
+
+        <script>
+            load_images();
+        </script>
+
+    </div>
+</div>
+
+<div class="content">
+    <div class="preview_art">
+<a href="img/Graphic_design/1.jpg">
+        <script>
+            load_images();
+        </script>
+
+    </div>
+</div>
 
 
 </body>
