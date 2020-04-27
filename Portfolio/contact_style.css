@@ -1,31 +1,31 @@
-    .content-contact{
+    .content-contact {
         width: 500px;
         margin: 0 auto;
 
     }
 
 
-.header-contact img{
+.header-contact img {
      width: 500px;
      display: block;
      margin: auto;
  }
 
- h3, label, p{
+ h3, label, p {
      color: #ffffff;
      text-indent: 0;
  }
-    .contact_form{
+  .contact_form {
         width: 500px;
         /*border-bottom: 1px solid #ffffff;*/
         border-top: 1px solid #ffffff;
-    }
+  }
 
-    .contact_form div{
+  .contact_form div {
         padding:20px 10px  0;
-    }
+  }
 
-    .contact_form input {
+  .contact_form input {
         width: 480px;
         margin-top:10px;
         border: none;
@@ -34,94 +34,100 @@
         outline:none;
         color: #70a7ff;
 
-    }
+  }
 
-    .form_button button{
+  .form_button button {
         color: #ffffff;
         background-color: #e871b7;
         border: none;
         padding: 10px;
         border-radius: 10px;
-    }
-    .form_button button:hover {
+  }
+  .form_button button:hover {
         background-color: #5183ff;
         color:#ffffff;
-    }
+  }
 
-    .form_button{
-        margin-bottom: 20px;
-    }
-    .form_button label{
-        padding: 5px;
-    }
+  .form_button{
+    margin-bottom: 20px;
+  }
+  .form_button label {
+    padding: 5px;
+  }
 
-    .placeholder_form{
-        padding-bottom: 10px;
-    }
+  .placeholder_form {
+    padding-bottom: 10px;
+  }
 
-    .contact_form textarea {
+  .contact_form textarea {
         width: 480px;
         background-color: #2e2d33;
         outline:none;
         color: #70a7ff;
 
-    }
+  }
 
-    .right{
-        float: right;
-    }
+  .right {
+    float: right;
+  }
 
-    .sprite a {
+  .sprite a {
         height: 40px;
         width: 40px;
         display: inline-block;
         margin-right: 10px;
 
+  }
+
+  a.telegram {
+    background-image: url("img/SVG/contact/tel.svg");
+  }
+  a.behance {
+    background-image: url("img/SVG/contact/behance.svg");
+  }
+  a.instagram {
+    background-image: url("img/SVG/contact/insta.svg");
+  }
+  a.veber {
+    background-image: url("img/SVG/contact/vaber.svg");
+  }
+  a.linkedin {
+    background-image: url("img/SVG/contact/lin.svg");
+  }
+  a.tumblr {
+     background-image: url("img/SVG/contact/tam.svg");
+  }
+  a.fecebook {
+    background-image: url("img/SVG/contact/fb.svg");
+  }
+  a.virink {
+    background-image: url("img/SVG/contact/virink.svg");
+  }
+
+
+
+
+  .sprite a:hover:after, a:focus:after {
+    width: 0;
+  }
+
+    .post {
+        width: 300px;
+        float: right;
+        position: relative;
+        z-index: 1;
+        bottom: 70px;
+        filter:drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.64));
+        -webkit-filter:drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.64));
     }
 
-    a.telegram {
-            background-image: url("img/SVG/contact/tel.svg");
-        }
-    a.behance {
-        background-image: url("img/SVG/contact/behance.svg");
-    }
-    a.instagram {
-        background-image: url("img/SVG/contact/insta.svg");
-    }
-    a.veber {
-        background-image: url("img/SVG/contact/vaber.svg");
-    }
-    a.linkedin {
-        background-image: url("img/SVG/contact/lin.svg");
-    }
-    a.tumblr {
-          background-image: url("img/SVG/contact/tam.svg");
-      }
-    a.fecebook {
-        background-image: url("img/SVG/contact/fb.svg");
-    }
-    a.virink {
-        background-image: url("img/SVG/contact/virink.svg");
-    }
 
 
-
-
-    .sprite a:hover:after,
-    a:focus:after {
-        width: 0;
-    }
-
-
-
-
-
-
-    @media screen and (max-width: 500px) {
-        .header-contact img{
+  @media screen and (max-width: 500px) {
+        .header-contact img {
             width: 300px;
         }
-        .contact_form{
+        .contact_form {
             width: 460px;
             display: block;
             margin: auto;
@@ -133,4 +139,4 @@
             width: 430px;
         }
 
-    }
+  }

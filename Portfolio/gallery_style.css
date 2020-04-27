@@ -28,7 +28,7 @@
         top: 0;
     }
 
-    .dropdown-child{
+    .dropdown-child {
         background-color: #4b5376;
         border: none;
     }
@@ -48,13 +48,17 @@
 
 
 
+
+
     /*Страница перехода по сcылке title*/
 
 
 
     .art-box img {
         width: 35em;
+        height: 460px;
         padding:0.6em  0.6em  0.6em 0;
+        object-fit: cover;
     }
 
     .art-box a:hover {

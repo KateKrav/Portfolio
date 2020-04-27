@@ -12,7 +12,7 @@
  .visited:visited {
      color: #e871b7;
  }
- p{
+ p {
      text-indent: 1.3em;
  }
 
@@ -52,9 +52,6 @@
      color: #70a7ff;
  }
 
- .box-index{
-
- }
  .content {
      display: flex;
      margin: 0 auto;
@@ -175,7 +172,7 @@
      display: block;
  }
  .program_icons img {
-     width: 50px;
+     width: 80px;
  }
 
 
@@ -187,9 +184,17 @@
      /*padding-right: 50px;*/
      position:fixed;
      bottom: 40px;
+     filter:drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.64));
+     -webkit-filter:drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.64));
 
 
  }
+
+ .link_img:hover:after,
+ .link_img:focus:after {
+     width: 0;
+ }
+
 
 
   @media screen and (max-width: 900px) {
