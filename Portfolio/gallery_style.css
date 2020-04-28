@@ -74,11 +74,13 @@
     }
 
 
-    .graphic_art-box img {
+    div.graphic_art-box {
         width: 250px;
         height: 250px;
         object-fit: cover;
-        padding:20px;
+        margin: 10px;
+        background-color: #9d2f20;
+        display: flex;
     }
 
 
@@ -102,9 +104,26 @@
     }
     .container_art {
         display: flex;
-        margin: 0 auto;
+        flex-wrap: wrap;
         width: 71.3em;
+        margin: 0 auto;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @media screen and (max-width: 1542px) {
