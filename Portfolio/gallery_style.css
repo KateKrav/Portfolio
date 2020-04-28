@@ -69,6 +69,10 @@
         display: flex;
     }
 
+    .preview_art a:hover:after,.preview_art a:focus:after {
+        width: 0;
+    }
+
 
     .graphic_art-box img {
         width: 250px;
@@ -84,6 +88,22 @@
 
     .preview_text {
         border: 1px solid white;
+    }
+
+    .gallery_button {
+        width:80px;
+        padding: 20px;
+        background-color: #5183ff;
+        color: #ffffff;
+        border-radius: 10px;
+        text-decoration: none;
+        border: none;
+
+    }
+    .container_art {
+        display: flex;
+        margin: 0 auto;
+        width: 71.3em;
     }
 
 

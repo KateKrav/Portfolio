@@ -11,37 +11,50 @@
 <!--<body onload="load_images()">-->
 
 <!--<button onclick="load_images()">Test</button>-->
+<body>
 
-
-<div class="navbar">
-    <div class="layer">
-        <a href="index.html">Главная</a>
-        <a href="About_me.html">Обо мне</a>
-        <a class="visited" href="Gallery.html">Галерея</a>
-        <a href="Contact.html">Контакты</a>
+    <div class="navbar">
+        <div class="layer">
+            <a class="link_hover" href="index.html">Главная</a>
+            <a class="link_hover" href="About_me.html">Обо мне</a>
+            <a class="link_hover" id="there" href="Gallery.html">Галерея</a>
+            <a class="link_hover" href="Contact.html">Контакты</a>
+        </div>
     </div>
-</div>
 
-<div class="content" style="margin-bottom: 0">
-    <div onload="load_images()" class="preview_art">
+    <div class="container_art" style="margin-bottom: 0;">
+        <div onload="load_images()" class="preview_art">
 
-        <script>
-            load_images();
-        </script>
+            <script>
+                load_images();
+            </script>
 
+        </div>
     </div>
-</div>
 
-<div class="content">
-    <div class="preview_art">
-<a href="img/Graphic_design/1.jpg">
-        <script>
-            load_images();
-        </script>
-
+    <div class="container_art" style="margin-bottom: 0;">
+        <div class="preview_art">
+            <a href="img/Graphic_design/1.jpg">
+            <script>
+                load_images();
+            </script>
+            </a>
+        </div>
     </div>
-</div>
 
+    <div class="container_art" style="margin-bottom: 0;">
+        <div class="preview_art">
+            <a href="img/Graphic_design/1.jpg">
+                <script>
+                    load_images();
+                </script>
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+      <button type="button" class="gallery_button">More</button>
+    </div>
 
 </body>
 </html>
