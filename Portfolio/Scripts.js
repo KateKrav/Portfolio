@@ -14,8 +14,8 @@ function set_category(select) {
 }
 
 function load_images() {
-    for (let i = 1; i < 7; i++) {
-        document.write('<div class="preview_art"><a class="" href="img/'+ category + i + '.jpg"><img src="img/'+ category + i + '.jpg" ></div>');
+    for (let i = 1; i < 12; i++) {
+        document.write('<div class="preview_art"><a href="img/'+ category + i + '.jpg"><img src="img/'+ category + i + '.jpg" ></div>');
     }
 }
 
