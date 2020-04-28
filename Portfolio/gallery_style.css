@@ -73,14 +73,21 @@
         width: 0;
     }
 
+    .graphic_art-box  {
+        display: flex;
+        flex-wrap: wrap;
+        width: 71.3em;
+        margin: 0 auto;
 
-    div.graphic_art-box {
+    }
+    .graphic_art-box img,
+    .graphic_art-box a {
         width: 250px;
         height: 250px;
         object-fit: cover;
         margin: 10px;
         background-color: #9d2f20;
-        display: flex;
+
     }
 
 
@@ -102,12 +109,12 @@
         border: none;
 
     }
-    .container_art {
-        display: flex;
-        flex-wrap: wrap;
-        width: 71.3em;
-        margin: 0 auto;
-    }
+    /*.container_art {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    width: 71.3em;*/
+    /*    margin: 0 auto;*/
+    /*}*/
 
 
 
