@@ -17,8 +17,8 @@
  .avatarKa img {
      width: 150px;
      height: auto;
-     border-radius: 50%;
-     padding: 1.3em;
+     border-radius: 6px;
+     padding: 40px 1.3em 0 0;
  }
   .icons_mini {
         width:3.1em;
