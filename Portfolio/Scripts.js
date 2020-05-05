@@ -1,23 +1,9 @@
-let graphic_design_images_amount = 13;
-let traditional_art_images_amount = 13;
-let digital_art_images_amount = 13;
+let graphic_images_amount = 5;
+let water_color_images_amount = 13;
+
 let category;
 let images_amount;
 
-function graphic_design_select() {
-    localStorage.setItem("category", "Graphic_design/");
-    localStorage.setItem("images_amount", graphic_design_images_amount);
-}
-
-function traditional_art_select() {
-    localStorage.setItem("category", "Graphic_design/");
-    localStorage.setItem("images_amount", traditional_art_images_amount);
-}
-
-function digital_art_select() {
-    localStorage.setItem("category", "Graphic_design/");
-    localStorage.setItem("images_amount", digital_art_images_amount);
-}
 
 function load_images() {
     category = localStorage.getItem("category");
@@ -27,3 +13,19 @@ function load_images() {
     }
 }
 
+
+
+function graphic() {
+    localStorage.setItem("category", "Graphic_design/Graphic/");
+    localStorage.setItem("images_amount", graphic_images_amount);
+}
+
+function watercolor() {
+    localStorage.setItem("category", "Graphic_design/WaterColor/");
+    localStorage.setItem("images_amount", water_color_images_amount);
+}
+
+function digital_art_select() {
+    localStorage.setItem("category", "Graphic_design/");
+    localStorage.setItem("images_amount", digital_art_images_amount);
+}
