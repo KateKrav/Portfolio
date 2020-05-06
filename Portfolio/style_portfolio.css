@@ -56,12 +56,23 @@
      display: flex;
      margin: 0 auto;
      width: 71.3em;
+     padding-top: 40px;
  }
 
  .teaser {
      width: 24em;
      text-align: center;
      padding: 1.3em 0;
+
+ }
+ .gradient_teaser {
+     background: linear-gradient(to top left, #b6b644, #9d2f20);
+ }
+ .gradient_teaser_second {
+    background: linear-gradient(to top left, #8cc344, #ac4b80);
+ }
+ .gradient_teaser_third {
+     background: linear-gradient(to top left, #e216e8, #6cbea3);
  }
 
  .teaser a:hover {
@@ -88,7 +99,9 @@
      margin: 0;
      padding: 10px 1.3em;
  }
-
+ .teaser_text_border {
+    border-right: 1px solid #ffffff;
+ }
  .link_hover {
      line-height: 1;
      cursor: pointer;
@@ -118,7 +131,9 @@
      cursor: pointer;
      padding: 15px 15px 10px;
      border-radius: 10px;
-
+ }
+ .button_menu img{
+    width: 20px
  }
 
  .dropdown {
@@ -141,7 +156,12 @@
  .dropdown:hover .dropdown-child {
      display: block;
  }
-
+ .margin {
+   margin-top: 25px
+ }
+ .arrow {
+   width: 20px;
+ }
  .content_ava {
      width: 24em;
  }
@@ -178,6 +198,7 @@
 
 
 
+
  .cat_helper img {
      width:300px;
      /*bottom: 350px;*/
@@ -195,7 +216,18 @@
  .link_img:focus:after {
      width: 0;
  }
-
+ .palette {
+     width: 50px;
+     padding-top:5px;
+ }
+ .planshet {
+     width: 100px;
+     padding-top: 20px
+ }
+ .notebook {
+     width: 100px;
+     padding-top: 10px
+ }
 
 
   @media screen and (max-width: 900px) {

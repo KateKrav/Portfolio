@@ -98,7 +98,14 @@
     .preview_text {
         border: 1px solid white;
     }
-
+    .preview_text_border {
+        color: white;
+        padding:10px 20px;
+    }
+    .preview_text_padding {
+      color: #ffffff;
+      padding:10px 20px;
+    }
     .gallery_button {
         width:80px;
         padding: 20px;
@@ -109,15 +116,18 @@
         border: none;
 
     }
-    /*.container_art {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    width: 71.3em;*/
-    /*    margin: 0 auto;*/
-    /*}*/
 
 
-
+    img.palette_icon  {
+        width: 50px;
+    }
+   .text-content_P {
+      color: #ffffff; padding:0.6em 1.3em
+   }
+   .art-box_empty {
+      width: 35em;
+      padding: 0.6em  0.6em  0.6em 0;
+   }
 
 
 

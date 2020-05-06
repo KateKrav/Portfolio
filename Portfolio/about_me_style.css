@@ -23,6 +23,19 @@
   .icons_mini {
         width:3.1em;
   }
+  .icons_mini_draw {
+     padding-top: 10px
+  }
+  .icons_mini_student{
+    padding-top: 25px
+  }
+  .block_text_icon{
+     width: 50px
+  }
+  .tooltip_icon{
+    padding-left: 0;
+  }
+
   .icons_center img {
         display: block;
         margin-left: auto;
@@ -81,7 +94,12 @@
         padding: 0.6em 1.3em;
         border-right: 1px solid #ffffff;
   }
-
+  .sections_border-none {
+     border: none
+  }
+  .b-t_none {
+    border-top:none
+  }
   .title-sections {
         text-align: center;
         color: #70a7ff;
@@ -113,7 +131,12 @@
         display: inline-block;
         cursor:pointer;
   }
-
+  .programs_icon{
+    height: 50px
+  }
+  .tooltiptext{
+    width: 150px;
+  }
   .tooltip .tooltiptext {
         visibility: hidden;
         width: 120px;
@@ -129,8 +152,6 @@
         /* Position the tooltip */
         position: absolute;
         z-index: 1;
-
-
   }
 
   .tooltip:hover .tooltiptext {
