@@ -1,12 +1,12 @@
-let graphic_images_amount = 12;
-let water_color_images_amount = 6;
+let graphic_images_amount = 11;
+let water_color_images_amount = 9;
 let oil_paintings_images_amount = 15;
 let personage_images_amount = 5;
-let background_images_amount = 2;
+let background_images_amount = 3;
 let illustration_images_amount = 11;
 let logo_images_amount = 3;
 let banner_images_amount = 4;
-let ledingpage_images_amount = 1;
+let ledingpage_images_amount = 4;
 
 
 
