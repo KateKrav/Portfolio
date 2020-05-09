@@ -6,24 +6,48 @@ let background_images_amount = 3;
 let illustration_images_amount = 11;
 let logo_images_amount = 3;
 let banner_images_amount = 4;
-let ledingpage_images_amount = 4;
-
-
-
-
+let lending_page_images_amount = 4;
 
 
 let category;
 let images_amount;
-
+let image_name = "hobbit";
+let image_description = "desc";
 
 function load_images() {
+
     category = localStorage.getItem("category");
     images_amount = localStorage.getItem("images_amount");
     for (let i = 1; i <= images_amount; i++) {
-        document.write('<div class="preview_art"><a href="img/'+ category + i + '.jpg"><img src="img/'+ category + i + '.jpg" ></div>');
+        document.write(`<div class="preview_art"><a onclick=localStorage.setItem("item_name",${i}) href="img_details.html"><img src="img/${category}${i}.jpg"></div>`);
     }
 }
+
+
+function load_img_details() {
+    document.write(`     <div>
+         <a href="#"><img src="img/${localStorage.getItem("category")}/Full/${localStorage.getItem("item_name")}.jpg" alt="img" style="width: 1500px"></a>
+     </div>
+     <div class="text_img">
+         <div class="gradient_teaser">
+             <span>${image_name}</span>
+         </div>
+         <span class="text_img_span_padding">${image_description}</span>
+         <button class="button_menu">
+             <a href="Image_list.html">
+                 <img alt="arrow_icon" src="https://img.icons8.com/material-rounded/48/ffffff/back.png"/>
+             </a>
+         </button>`)
+}
+
+async function read_image_description() {
+    let say = await import('Portfolio/img/Tradition_art/Graphic/Full/say.js');
+    say.hi(); // Привет!
+
+}
+
+
+
 
 
 
@@ -69,6 +93,6 @@ function banner () {
 }
 
 function ledingpage () {
-    localStorage.setItem("category", "Design/Ledingpage/");
-    localStorage.setItem("images_amount", ledingpage_images_amount);
+    localStorage.setItem("category", "Design/Lending_page/");
+    localStorage.setItem("images_amount", lending_page_images_amount);
 }
