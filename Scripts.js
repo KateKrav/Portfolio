@@ -41,7 +41,7 @@ function load_img_details() {
 }
 
 async function read_image_description() {
-    let say = await import('Portfolio/img/Tradition_art/Graphic/Full/say.js');
+    let say = await import('img/Tradition_art/Graphic/Full/say.js');
     say.hi(); // Привет!
 
 }
