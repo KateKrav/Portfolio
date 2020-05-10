@@ -3,122 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <title>Artist</title>
-    <link rel="stylesheet" href="style_portfolio.css">
-    <link rel="shortcut icon" href="img/idex-art.ico" >
-    <script src="Scripts.js" ></script>
+    <link rel="stylesheet" href="html/css/general.css">
+    <link rel="shortcut icon" href="img/idex-art.ico">
+    <script src="Scripts.js"></script>
 
 </head>
 <body>
-    <div class="banner">
-            <img src="img/3D%20photoshop.jpg" alt="banner">
+<div class="banner">
+    <img src="img/3D%20photoshop.jpg" alt="banner">
 
+</div>
+
+<div class="navbar">
+    <div class="layer">
+        <a class="link_hover" href="index.html" id="there">Главная</a>
+        <a class="link_hover" href="html/amout_me/About_me.html">Обо мне</a>
+        <a class="link_hover" href="html/galery/Gallery.html">Галерея</a>
+        <a class="link_hover" href="html/contact_me/Contact.html">Контакты</a>
+    </div>
+</div>
+
+
+<div class="box-index">
+    <div class="cat_helper">
+        <img src="img/SVG/index_icon/cat.svg" alt="cat">
     </div>
 
-    <div class="navbar">
-        <div class="layer">
-            <a class="link_hover" href="index.html" id="there">Главная</a>
-            <a class="link_hover" href="About_me.html">Обо мне</a>
-            <a class="link_hover" href="Gallery.html">Галерея</a>
-            <a class="link_hover" href="Contact.html">Контакты</a>
+
+    <div class="content">
+        <div class="first_column">
+            <div class="teaser gradient_teaser">
+                <a class="link_hover" href="html/Traditional-art.html">Traditional art</a>
+            </div>
+            <div class="teaser_text">
+                <div class="dropdown">
+                    <a href="html/Traditional-art.html" class="link_img">
+                        <img src="img/SVG/index_icon/palette.svg" alt="icon" class="palette">
+                    </a>
+                    <p>Работы выполненные в графике, акварели, живописи.</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="button_menu">
+                    <img src="img/SVG/index_icon/arrow.svg" alt="icon">
+                </button>
+                <div class="dropdown-child">
+                    <a class="link_hover" href="html/galery/Images_list.html" onclick="graphic()">Графика</a>
+                    <a class="link_hover" href="/">Акварель</a>
+                    <a class="link_hover" href="/">Живопись</a>
+                    <a class="link_hover" href="/">Другое</a>
+                </div>
+            </div>
         </div>
-    </div>
 
 
-    <div class="box-index">
-                <div class="cat_helper">
-                    <img src="img/SVG/index_icon/cat.svg" alt="cat" >
+        <div class="second_column">
+            <div class="teaser gradient_teaser_second">
+                <a class="link_hover" href="html/Digital-art.html">Digital art</a>
+            </div>
+            <div class="teaser_text">
+                <div class="dropdown">
+                    <a href="html/Digital-art.html" class="link_img">
+                        <img src="img/SVG/index_icon/planshet.svg" alt="icon" class="planshet">
+                    </a>
+                    <p>Изображения выполненные в графических редакторах.</p>
                 </div>
 
-
-        <div class="content">
-                    <div class="first_column">
-                        <div class="teaser gradient_teaser" >
-                            <a class="link_hover" href="Traditional-art.html">Traditional art</a>
-                        </div>
-                             <div class="teaser_text">
-                                 <div class="dropdown">
-                                     <a href="Traditional-art.html" class="link_img">
-                                         <img src="img/SVG/index_icon/palette.svg" alt="icon" class="palette">
-                                     </a>
-                                    <p>Работы  выполненные в графике, акварели, живописи.</p>
-                                 </div>
-                             </div>
-                             <div class="dropdown">
-                                 <button class="button_menu">
-                                     <img src="img/SVG/index_icon/arrow.svg" alt="icon">
-                                 </button>
-                                        <div class="dropdown-child">
-                                            <a class="link_hover" href="Graphic.html">Графика</a>
-                                            <a class="link_hover" href="/">Акварель</a>
-                                            <a class="link_hover" href="/">Живопись</a>
-                                            <a class="link_hover"  href="/">Другое</a>
-                                        </div>
-                             </div>
-                    </div>
-
-
-                    <div class="second_column">
-                            <div class="teaser gradient_teaser_second" >
-                                <a class="link_hover" href="Digital-art.html">Digital art</a>
-                            </div>
-                                <div class="teaser_text">
-                                    <div class="dropdown">
-                                        <a href="Digital-art.html" class="link_img" >
-                                            <img src="img/SVG/index_icon/planshet.svg" alt="icon" class="planshet">
-                                        </a>
-                                        <p>Изображения выполненные в графических редакторах.</p>
-                                    </div>
-
-                                </div>
-                                    <div class="dropdown">
-                                        <button class="button_menu">
-                                            <img src="img/SVG/index_icon/arrow.svg" alt="icon">
-                                            </button>
-                                        <div class="dropdown-child">
-                                            <a class="link_hover" href="/">Персонажи</a>
-                                            <a class="link_hover" href="/">Фон</a>
-                                            <a class="link_hover" href="/">Иллюстрации</a>
-                                            <a class="link_hover" href="/">Другое</a>
-                                        </div>
-                                    </div>
-                    </div>
-
-                    <div class="third_column">
-                        <div class="teaser gradient_teaser_third">
-                            <a class="link_hover" href="Design.html" onclick="graphic()">Graphic design</a>
-                        </div>
-
-                        <div class="teaser_text teaser_text_border">
-                            <a href="Design.html" class="link_img">
-                                <img src="img/SVG/index_icon/notebook.svg" class="notebook" alt="icon">
-                            </a>
-                                <p>Примеры брендовых работ.</p>
-                        </div>
-
-                                <div class="dropdown">
-                                    <button class="button_menu">
-                                        <img src="img/SVG/index_icon/arrow.svg" alt="icon">
-                                    </button>
-                                    <div class="dropdown-child">
-                                        <a class="link_hover" href="/">Логотипы</a>
-                                        <a class="link_hover" href="/">Баннера</a>
-                                        <a class="link_hover" href="/">Брендбук</a>
-                                        <a class="link_hover" href="/">Другое</a>
-                                    </div>
-                                </div>
-
-                    </div>
+            </div>
+            <div class="dropdown">
+                <button class="button_menu">
+                    <img src="img/SVG/index_icon/arrow.svg" alt="icon">
+                </button>
+                <div class="dropdown-child">
+                    <a class="link_hover" href="/">Персонажи</a>
+                    <a class="link_hover" href="/">Фон</a>
+                    <a class="link_hover" href="/">Иллюстрации</a>
+                    <a class="link_hover" href="/">Другое</a>
+                </div>
+            </div>
         </div>
 
+        <div class="third_column">
+            <div class="teaser gradient_teaser_third">
+                <a class="link_hover" href="html/Design.html" onclick="graphic()">Graphic design</a>
+            </div>
 
+            <div class="teaser_text teaser_text_border">
+                <a href="html/Design.html" class="link_img">
+                    <img src="img/SVG/index_icon/notebook.svg" class="notebook" alt="icon">
+                </a>
+                <p>Примеры брендовых работ.</p>
+            </div>
+
+            <div class="dropdown">
+                <button class="button_menu">
+                    <img src="img/SVG/index_icon/arrow.svg" alt="icon">
+                </button>
+                <div class="dropdown-child">
+                    <a class="link_hover" href="/">Логотипы</a>
+                    <a class="link_hover" href="/">Баннера</a>
+                    <a class="link_hover" href="/">Брендбук</a>
+                    <a class="link_hover" href="/">Другое</a>
+                </div>
+            </div>
+
+        </div>
     </div>
+</div>
 
 
-
-
-    <footer class="footer">
-        <p>© Все права защищены 2020</p>
-    </footer>
+<footer class="footer">
+    <p>© Все права защищены 2020</p>
+</footer>
 
 </body>
 

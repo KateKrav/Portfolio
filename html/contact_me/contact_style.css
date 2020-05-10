@@ -91,28 +91,28 @@
   }
 
   a.telegram {
-    background-image: url("img/SVG/contact/tel.svg");
+    background-image: url("../../img/SVG/contact/tel.svg");
   }
   a.behance {
-    background-image: url("img/SVG/contact/behance.svg");
+    background-image: url("../../img/SVG/contact/behance.svg");
   }
   a.instagram {
-    background-image: url("img/SVG/contact/insta.svg");
+    background-image: url("../../img/SVG/contact/insta.svg");
   }
   a.veber {
-    background-image: url("img/SVG/contact/vaber.svg");
+    background-image: url("../../img/SVG/contact/vaber.svg");
   }
   a.linkedin {
-    background-image: url("img/SVG/contact/lin.svg");
+    background-image: url("../../img/SVG/contact/lin.svg");
   }
   a.tumblr {
-     background-image: url("img/SVG/contact/tam.svg");
+     background-image: url("../../img/SVG/contact/tam.svg");
   }
   a.fecebook {
-    background-image: url("img/SVG/contact/fb.svg");
+    background-image: url("../../img/SVG/contact/fb.svg");
   }
   a.virink {
-    background-image: url("img/SVG/contact/virink.svg");
+    background-image: url("../../img/SVG/contact/virink.svg");
   }
 
 
