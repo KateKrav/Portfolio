@@ -8,12 +8,11 @@ let logo_images_amount = 3;
 let banner_images_amount = 4;
 let lending_page_images_amount = 4;
 
-
+let content;
 let category;
 let images_amount;
-let image_name = "hobbit";
-let image_description = "desc desc desc desc desc desc desc desc desc desc desc desc desc desc " +
-    "desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc ";
+let image_name;
+let image_description;
 
 function load_images() {
 
@@ -26,6 +25,7 @@ function load_images() {
 
 
 function load_img_details() {
+set_image_details()
     document.write(`     <div>
          <a href="#"><img src="../../img/${localStorage.getItem("category")}/Full/${localStorage.getItem("item_name")}.jpg" alt="img" style="width: 1500px"></a>
      </div>
@@ -41,15 +41,33 @@ function load_img_details() {
          </button>`)
 }
 
-
-
-
-async function read_image_description() {
-    let say = await import('img/Tradition_art/Graphic/Full/say.js');
-    say.hi(); // Привет!
+function get_content_by_category() {
+    if (localStorage.getItem("category") === "Tradition_art/Graphic/") {
+        content = traditional_art_Graphic;
+    } else if (localStorage.getItem("category") === "Tradition_art/WaterColor/") {
+        content = traditional_art_WaterColor;
+    } else if (localStorage.getItem("category") === "Tradition_art/OilPaintings/") {
+        content = traditional_art_OilPaintings;
+    } else if (localStorage.getItem("category") === "Digital_art/personage/") {
+        content = digital_art_Personage;
+    } else if (localStorage.getItem("category") === "Digital_art/background/") {
+        content = digital_art_Background;
+    } else if (localStorage.getItem("category") === "Digital_art/illustration/") {
+        content = digital_art_Illustration;
+    } else if (localStorage.getItem("category") === "Design/Logo/") {
+        content = design_Logo;
+    } else if (localStorage.getItem("category") === "Design/Banner/") {
+        content = design_Banner;
+    } else if (localStorage.getItem("category") === "Design/Lending_page/") {
+        content = design_Landing_page;
+    }
 }
 
-
+function set_image_details() {
+get_content_by_category();
+image_name = content["name"+localStorage.getItem("item_name")];
+image_description = content["description"+localStorage.getItem("item_name")];
+}
 
 
 
