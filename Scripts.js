@@ -12,7 +12,8 @@ let lending_page_images_amount = 4;
 let category;
 let images_amount;
 let image_name = "hobbit";
-let image_description = "desc";
+let image_description = "desc desc desc desc desc desc desc desc desc desc desc desc desc desc " +
+    "desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc ";
 
 function load_images() {
 
@@ -29,7 +30,10 @@ function load_img_details() {
          <a href="#"><img src="../../img/${localStorage.getItem("category")}/Full/${localStorage.getItem("item_name")}.jpg" alt="img" style="width: 1500px"></a>
      </div>
      <div class="text_img">
-
+<div class="gradient_teaser">
+    <span>${image_name}</span>
+    </div>
+    <span class="text_img_span_padding">${image_description}</span>
          <button class="button_menu">
              <a href="Images_list.html">
                  <img alt="arrow_icon" src="https://img.icons8.com/material-rounded/48/ffffff/back.png"/>
@@ -38,10 +42,7 @@ function load_img_details() {
 }
 
 
-// <div class="gradient_teaser">
-//     <span>${image_name}</span>
-//     </div>
-//     <span class="text_img_span_padding">${image_description}</span>
+
 
 async function read_image_description() {
     let say = await import('img/Tradition_art/Graphic/Full/say.js');
