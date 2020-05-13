@@ -21,8 +21,8 @@ body {
 
 .gradient_teaser {
     background: linear-gradient(to top left, #b6b644, #9d2f20);
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
+    line-height: 50px;
     margin-bottom: 20px;
    text-align: center;
 
