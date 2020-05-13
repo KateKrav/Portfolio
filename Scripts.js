@@ -26,19 +26,21 @@ function load_images() {
 
 function load_img_details() {
 set_image_details()
-    document.write(`     <div>
-         <a href="#"><img src="../../img/${localStorage.getItem("category")}/Full/${localStorage.getItem("item_name")}.jpg" alt="img" style="width: 1500px"></a>
+    document.write(`
+     <div>
+         <a href="#"><img src="../../img/${localStorage.getItem("category")}/Full/${localStorage.getItem("item_name")}.jpg" alt="img" class="size_img"></a>
      </div>
      <div class="text_img">
-<div class="gradient_teaser">
-    <span>${image_name}</span>
-    </div>
-    <span class="text_img_span_padding">${image_description}</span>
+      <div class="gradient_teaser">
+       <span>${image_name}</span>
+     </div>
+       <span class="text_img_span_padding">${image_description}</span>
+       <div class="button_menu_gallery">
          <button class="button_menu">
              <a href="Images_list.html">
                  <img alt="arrow_icon" src="https://img.icons8.com/material-rounded/48/ffffff/back.png"/>
              </a>
-         </button>`)
+         </button></div>`)
 }
 
 function get_content_by_category() {

@@ -6,13 +6,17 @@ body {
 }
  .text_img{
      color: white;
-     margin-left: 20px;
+     margin-left: 50px;
  }
+
+
  .content_img{
-    /*margin-left: 20px;*/
-     margin-top: 50px;
+     margin-top: 20px;
      display: flex;
      justify-content: center;
+ }
+ .size_img {
+    width:1000px;
  }
 
 .gradient_teaser {
@@ -34,6 +38,10 @@ span.text_img_span_padding {
     padding: 10px;
     border-radius: 10px;
      position: absolute;
-     top: 300px;
+     top: 100px;
      left: 0;
+ }
+ .button_menu_gallery button{
+     margin-top: 20px;
+     margin-left: 20px;
  }
