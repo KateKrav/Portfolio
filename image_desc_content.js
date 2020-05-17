@@ -21,8 +21,6 @@ let traditional_art_Graphic = {
     description10: `Размер: 420 × 594 мм; <br><br> Материалы: бумага, линеры, туш, перо, тушь красная.`,
     name11: "Ловец иллюзий",
     description11: `Размер: 420 × 594 мм; <br><br> Материалы: бумага, линеры, туш, перо, акварель.`,
-
-
 };
 
 let traditional_art_WaterColor = {
