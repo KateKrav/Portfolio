@@ -252,7 +252,29 @@
 
   }
 
+ @media screen and (max-width: 999px) {
+     .layer a {
+         text-decoration: none;
+         padding: 1.9em 1.3em 0;
+     }
 
+     .content {
+         width: 100%;
+         flex-direction: column;
+         justify-items: center;
+     }
+
+     .first_column, .second_column, .third_column {
+         margin: 0 auto;
+     }
+
+     .teaser_text {
+         border: 1px solid #ffffff;
+         border-top:none;
+     }
+
+
+ }
 
  @media screen and (max-width: 1648px) {
 

@@ -82,43 +82,78 @@ let traditional_art_OilPaintings = {
 };
 
 let digital_art_Personage = {
-    name1: "image 22 name",
-    description1: "image 1 description",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Хоббит",
+    description1: "Программы: Photoshop, Sai",
+    name2: "Монстры",
+    description2: "Выполнено в программе: Photoshop",
+    name3: "Темный ельф",
+    description3: "Выполнено в программе: Photoshop",
+    name4: "Студенты Хогвардса",
+    description4: "Выполнено в программе: Photoshop",
+    ame5: "Студенты Хогвардса 2",
+    description5: "Выполнено в программе: Photoshop",
 };
 
 let digital_art_Background = {
-    name1: "digital art name",
-    description1: "digit art desc",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Абстракция",
+    description1: "Выполнено в программе: CorelDraw",
+    name2: "Цветы",
+    description2: "Выполнено в программе: CorelDraw",
+    name3: "Домики",
+    description3: "Выполнено в программе: Photoshop",
 };
 
 let digital_art_Illustration = {
-    name1: "image 22 name",
-    description1: "image 1 description",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Ельфийка",
+    description1: "Выполнено в программе: Photoshop",
+    name2: "Воительница",
+    description2: "Выполнено в программе: Photoshop",
+    name3: "Ельфийка-воин",
+    description3: "Выполнено в программе: Photoshop",
+    name4: "Чумной доктор",
+    description4: "Выполнено в программах: Photoshop, Sai",
+    name5: "Ельфы",
+    description5: "Выполнено в программе: Photoshop",
+    name6: "Рири",
+    description6: "Выполнено в программе: Photoshop",
+    name7: "Русалка",
+    description7: "Выполнено в программе: Photoshop",
+    name8: "Тропикал",
+    description8: "Выполнено в программе: CorelDraw",
+    name9: "Девушка с веснушками",
+    description9: "Выполнено в программе: CorelDraw",
+    name10: "Фрида Кало",
+    description10: "Выполнено в программе: CorelDraw",
+    name11: "Цирилла",
+    description11: "Выполнено в программе: CorelDraw"
 };
-
 let design_Logo = {
-    name1: "image 22 name",
-    description1: "image 1 description",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Lebedev team",
+    description1: "Логотип для спортивной одежды",
+    name2: "Paradise flowers",
+    description2: "Логотип для магазина цветов",
+    name3: "Blaze>",
+    description3: "Логотип для игрового клана"
 };
 
 let design_Banner = {
-    name1: "image 22 name",
-    description1: "image 1 description",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Плакат приуроченный памяти карпатских художников и скульпторов",
+    description1:"Выполнено в программе: Photoshop",
+    name2: "Плакаты с персонажами видео-игры The Witcher",
+    description2: "Выполнено в программе: CorelDraw",
+    name3: "Плакат приуроченный памяти украинского каллиграфа Ильи Богдеско",
+    description3: "Выполнено в программе: Photoshop",
+    name4: "451 градус по Фаренгейту",
+    description4: "Выполнено в программах: Photoshop, InDesign"
 };
 
 let design_Landing_page = {
-    name1: "image 22 name",
-    description1: "image 1 description",
-    name2: "image 2 name",
-    description2: "image 2 description"
+    name1: "Сайт для декоративных часов",
+    description1: "Выполнено в программе: Figma",
+    name2: "Сайт для Веб-крипты",
+    description2: "Выполнено в программе: Figma",
+    name3: "Сайт для Тур-агенства",
+    description3: "Выполнено в программе: Figma",
+    name4: "Мобильное приложение",
+    description4: "Выполнено в программе: Figma"
 };
