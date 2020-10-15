@@ -9,7 +9,6 @@ body {
      margin-left: 50px;
  }
 
-
  .content_img{
      margin-top: 20px;
      display: flex;
@@ -25,10 +24,6 @@ body {
     line-height: 50px;
     margin-bottom: 20px;
     text-align: center;
-
-}
-
-span.text_img_span_padding {
 }
 
 .button_menu {

@@ -5,7 +5,7 @@ let personage_images_amount = 5;
 let background_images_amount = 3;
 let illustration_images_amount = 11;
 let logo_images_amount = 3;
-let banner_images_amount = 4;
+let banner_images_amount = 5;
 let lending_page_images_amount = 4;
 
 let content;
@@ -54,7 +54,7 @@ function get_content_by_category() {
         content = digital_art_Personage;
     } else if (localStorage.getItem("category") === "Digital_art/background/") {
         content = digital_art_Background;
-    } else if (localStorage.getItem("category") === "Digital_art/illustration/") {
+    } else if (localStorage.getItem("category") === "Digital_art/a-illustration/") {
         content = digital_art_Illustration;
     } else if (localStorage.getItem("category") === "Design/Logo/") {
         content = design_Logo;
@@ -100,7 +100,7 @@ function background () {
 }
 
 function illustration () {
-    localStorage.setItem("category", "Digital_art/illustration/");
+    localStorage.setItem("category", "Digital_art/a-illustration/");
     localStorage.setItem("images_amount", illustration_images_amount);
 }
 

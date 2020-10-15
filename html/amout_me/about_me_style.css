@@ -37,47 +37,41 @@
   }
 
   .icons_center img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 3.1em;
-        padding-top:1.3em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 3.1em;
+     padding-top:1.3em;
   }
 
   .block_text {
-        display: flex;
-        margin-bottom:1.3em;
-        vertical-align: middle;
+    display: flex;
+    margin-bottom:1.3em;
+    vertical-align: middle;
   }
 
   #data_b {
-        padding: 10px 20px 20px;
+    padding: 10px 20px 20px;
   }
   #hobby {
-        padding: 5px 20px
+    padding: 5px 20px
   }
   #education {
-        padding: 10px 20px
+     padding: 10px 20px
   }
 
-
-
   .block_text p {
-       margin: 0;
-        padding-left: 0.6em;
-
-
+    margin: 0;
+    padding-left: 0.6em;
   }
 
   .box_skills {
-        padding-left: 1.9em ;
-        padding-top: 60px;
+    padding-left: 1.9em ;
+    padding-top: 60px;
   }
  #code {
   padding:20px 10px
  }
-
-
   p {
       text-indent: 0;
       color: #ffffff;
@@ -90,9 +84,9 @@
   }
 
   .sections, .section_publications {
-        width: 23.7em;
-        padding: 0.6em 1.3em;
-        border-right: 1px solid #ffffff;
+     width: 23.7em;
+     padding: 0.6em 1.3em;
+     border-right: 1px solid #ffffff;
   }
   .sections_border-none {
      border: none
@@ -101,35 +95,33 @@
     border-top:none
   }
   .title-sections {
-        text-align: center;
-        color: #70a7ff;
+    text-align: center;
+    color: #70a7ff;
   }
-
   .content-awards_box {
-         display: flex;
-         margin: 0 auto;
-         width: 71.3em;
-        border-top: 1px solid #ffffff;
-        border-bottom: 1px solid #ffffff;
+    display: flex;
+    margin: 0 auto;
+    width: 71.3em;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
   }
   .section_publications {
     width: 35.6em;
   }
 
   .tooltip {
-        display: block;
+    display: block;
   }
   .tooltip img {
-        width: 50px;
-        padding-left: 10px;
-        padding-top: 10px;
+     width: 50px;
+     padding-left: 10px;
+     padding-top: 10px;
   }
 
-
   .tooltip {
-        position: relative;
-        display: inline-block;
-        cursor:pointer;
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
   }
   .programs_icon{
     height: 50px
@@ -138,20 +130,19 @@
     width: 150px;
   }
   .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        bottom: 100%;
-        left: 0;
-        background-color: black;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
+     visibility: hidden;
+     width: 120px;
+     bottom: 100%;
+     left: 0;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
 
-
-        /* Position the tooltip */
-        position: absolute;
-        z-index: 1;
+     /* Position the tooltip */
+     position: absolute;
+     z-index: 1;
   }
 
   .tooltip:hover .tooltiptext {
@@ -216,12 +207,10 @@
        }
    }
 
-
     @media screen and (max-width: 500px) {
         .content_about p, .content_about h3 {
             width: 20%;
         }
-
         .content_about {
             flex-direction: column;
             justify-items: center;
@@ -233,18 +222,14 @@
             align-content: center;
             justify-content: center;
         }
-
         .section_publications {
             width: 23.7em;
             border-right: none;
             border-bottom: 1px solid #ffffff;
         }
-
-
         .content-about_text p {
             width: 100%;
         }
-
         .content-about_text {
             padding-left: 5px ;
             border-left: 0;
@@ -252,17 +237,14 @@
             border-bottom: 1px solid #ffffff;
             width: 23.7em;
         }
-
         .box_skills p {
             width: 100%;
         }
-
         .box_skills {
             width: 80%;
             padding-left: 5px ;
             padding-bottom: 100px;
         }
-
         #data_b {
             padding-left: 10px;
         }

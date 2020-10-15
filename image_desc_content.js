@@ -142,7 +142,9 @@ let design_Banner = {
     name3: "Плакат приуроченный памяти украинского каллиграфа Ильи Богдеско",
     description3: "Выполнено в программе: Photoshop",
     name4: "451 градус по Фаренгейту",
-    description4: "Выполнено в программах: Photoshop, InDesign"
+    description4: "Выполнено в программах: Photoshop, InDesign",
+    name5: "Дизайн этикетки",
+    description5: "Выполнено в программах: Photoshop, CorelDraw"
 };
 
 let design_Landing_page = {
